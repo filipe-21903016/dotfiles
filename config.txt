@@ -1,0 +1,35 @@
+set guicursor
+set relativenumber
+set nohlsearch
+set hidden
+set noerrorbells
+set tabstop=4 softtabstop=4
+set shiftwidth=4
+set expandtab
+set smartindent
+set nowrap
+set noswapfile
+set nobackup
+set undodir=~/.vim/undodir
+set undofile
+set incsearch
+set termguicolors
+set scrolloff=8
+set noshowmode
+set completeopt=menuone,noinsert,noselect
+set signcolumn=yes
+set mouse=a
+set syntax
+set title
+inoremap jk <ESC>
+
+call plug#begin() 
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'matsuuu/pinkmare'
+Plug 'ycm-core/YouCompleteMe'
+call plug#end()
+
+colorscheme pinkmare
+let mapleader = " "
+
