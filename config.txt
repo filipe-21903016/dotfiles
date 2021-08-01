@@ -21,6 +21,8 @@ set signcolumn=yes
 set mouse=a
 set syntax
 set title
+set autoindent
+set cindent
 inoremap jk <ESC>
 
 call plug#begin() 
