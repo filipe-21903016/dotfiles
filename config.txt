@@ -28,8 +28,11 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'matsuuu/pinkmare'
 Plug 'ycm-core/YouCompleteMe'
+Plug 'jiangmiao/auto-pairs'
+Plug 'dracula/vim'
 call plug#end()
 
-colorscheme pinkmare
+colorscheme dracula
 let mapleader = " "
-
+nnoremap <Leader>o o<Esc>0"_D
+nnoremap <Leader>O O<Esc>0"_D
