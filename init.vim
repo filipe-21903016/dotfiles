@@ -31,6 +31,9 @@ Plug 'https://github.com/jiangmiao/auto-pairs.git'
 Plug 'https://github.com/vim-airline/vim-airline-themes.git'
 Plug 'https://github.com/tpope/vim-surround.git'
 
+" Header for 42
+Plug '42Paris/42header'
+
 " LSP
 Plug 'neovim/nvim-lspconfig'
 
@@ -107,3 +110,7 @@ lua require("fzarco")
 " leader ff to find files - Telescope
 nnoremap <leader>fd <cmd>lua require("telescope-config").curr_buff()<CR>
 nnoremap <leader>ff <cmd>lua require("telescope-config").files()<CR>
+
+" configure header fo 42
+let g:user42 = 'fzarco-l'
+let g:mail42 = 'fzarco-l@student.42.fr'
