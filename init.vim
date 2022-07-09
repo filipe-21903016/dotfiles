@@ -1,4 +1,8 @@
 "===================== GENERAL =============================
+<<<<<<< HEAD
+=======
+
+>>>>>>> dbd204d1e7939255dadf576b5db78f43b10ed060
 :set number
 :set relativenumber
 :set hidden
@@ -50,10 +54,13 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzf-native.nvim', {'do': 'make'}
 
+<<<<<<< HEAD
 " Treesitter
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'p00f/nvim-ts-rainbow'
 
+=======
+>>>>>>> dbd204d1e7939255dadf576b5db78f43b10ed060
 call plug#end()
 
 " ===================== CONFIGURATIONS =============================
