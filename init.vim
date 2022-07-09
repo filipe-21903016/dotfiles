@@ -1,8 +1,4 @@
 "===================== GENERAL =============================
-<<<<<<< HEAD
-=======
-
->>>>>>> dbd204d1e7939255dadf576b5db78f43b10ed060
 :set number
 :set relativenumber
 :set hidden
