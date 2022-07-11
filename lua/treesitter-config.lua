@@ -30,7 +30,7 @@ require'nvim-treesitter.configs'.setup {
   },
   indent = {
       enable = true,
-      disable = { "" }
+      disable = { "c" }
   },
     rainbow = {
     enable = true,

@@ -3,9 +3,9 @@
 :set relativenumber
 :set hidden
 :set noerrorbells
-:set tabstop=4 softtabstop=4
+:set tabstop=4 softtabstop=0
 :set shiftwidth=4
-:set expandtab
+:set noexpandtab
 :set smartindent
 :set nowrap
 :set mouse=a
